@@ -1,0 +1,94 @@
+Angular History
+======================
+
+Version:
+
+AngularJS 	: 1	: JS
+
+Angular2	: 	TS (typescript)	
+Angular4
+Angular5
+Angular6
+
+Environment Setup
+============================
+-NodeJS 
+-Editor :
+	VSCode 
+-Angular CLI 
+
+		$-linux or mac 
+		>-windows 
+$node -v	
+$npm i -g @angular/cli 		(node package manager)
+>npm i -g @angular/cli	--for windows
+
+
+--create new Angular Project
+>ng new ecomm
+
+>cd ecomm
+>ng serve 			loalhost:4200
+>ng serve --open 
+>ng serve --open port=4201
+
+
+Angular Project's Structure
+===================================
+ecomm
+	e2e
+	node_modules
+	src
+		app      **
+			app.component.ts	--4.
+					app-root 
+			app.component.html
+			app.component.css
+			app.component.spec.ts
+			app.module.ts	--3.	
+			
+		index.html		-- 1.  entry point 
+			<app-root> 
+		main.ts			-- 2 . 
+		style.css
+	angular-cli.json
+	package.json 
+	etc.
+
+		
+SPA	: single page application 
+Component Based Development 
+
+	header
+		header.component.ts
+				selector :  app-header
+				template : 
+				style :
+				
+
+		header.component.spec.ts	: unit testing 
+		header.component.html
+				template
+		header.component.css
+			style 
+	footer
+		footer.component.ts
+		footer.component.spec.ts
+		footer.component.html
+		footer.component.css
+
+	menu
+
+	product
+
+	
+
+Interpolation :    {{}}
+
+		: Expression 
+		<%php ?%>		
+
+
+>ng g c header
+>ng g c footer
+>ng g c employee
